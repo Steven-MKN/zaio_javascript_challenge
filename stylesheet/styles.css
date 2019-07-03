@@ -1,0 +1,25 @@
+.containers {
+    width: 400px;
+    height: 310px;
+    float: left;
+    margin: 20px;
+}
+
+#right_side {
+    border: 2px solid black;
+}
+
+.lefts {
+    border: 1px solid black;
+    width: 400px;
+    height: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+#heading_text {
+    margin-top: 100px;
+}
+
+

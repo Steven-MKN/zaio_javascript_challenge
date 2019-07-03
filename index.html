@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Changer</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+    <div class="containers" id="left_side">
+        <div class="lefts" id="div_blue" onclick="changeColor('blue')">
+            <h3>Blue</h3>
+        </div>
+        <div class="lefts" id="div_green" onclick="changeColor('green')">
+            <h3>Green</h3>
+        </div>
+        <div class="lefts" id="div_red" onclick="changeColor('red')">
+            <h3>Red</h3>
+        </div>
+    </div>
+    <div class="containers" id="right_side">
+        <h3 id="heading_text">&lt;Box that will be filled with the selected colour&gt;</h3>
+        <h3 id="color_text">&lt;Text will come here&gt;</h3>
+        <h3 id="calc_text">&lt;Calculations&gt;</h3>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
